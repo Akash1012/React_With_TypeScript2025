@@ -23,7 +23,7 @@ const CourseGoalList = (props: CourseGoalList) => {
 
   if (goals.length >= 4) {
     warningBox = (
-      <InfoBox mode="warning">
+      <InfoBox mode="warning" severity="high">
         You have reached the maximum number of course goals {goals.length}.
         Consider breaking down your goals into smaller, more manageable tasks.
       </InfoBox>
